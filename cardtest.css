@@ -1,0 +1,21 @@
+.card {
+    height: 100%;
+}
+
+.hero {
+    background-image: url(http://drewstagi.com/images/apartment.jpg?crc=11318194);
+    height: 400px;
+    background-repeat: no;
+    background-size: cover; 
+}
+
+.about {
+    background: black;
+    color: white;
+    height: 400px;
+}
+
+.prof {
+    height: 300px;
+    float: left;
+}
