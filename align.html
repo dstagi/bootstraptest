@@ -1,0 +1,115 @@
+<!-- Alignment is essential to all layouts. If you need an element centered at the top, middle or bottom of your div, alignment is there to help you. -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="align.css">
+    <title>Student Alignment</title>
+    <style>
+        .bor {
+            border: brown;
+            border-width: 2px;
+            border: solid;
+        }
+
+        ) .red {
+            background: #FF1939;
+            height: 100px;
+        }
+
+        .yellow {
+            background: #FFEE19;
+            height: 100px;
+        }
+
+        .green {
+            background: #48CDD2;
+            height: 100px;
+        }
+
+        .row {
+            background: pink;
+            height: 100px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Vertical</h2>
+        <div class="row align-items-end">
+            <div class="col bor">
+                Align Us At The Bottom
+            </div>
+            <div class="col bor">
+                Align Us At The Bottom
+            </div>
+            <div class="col bor">
+                Align Us At The Bottom
+            </div>
+        </div>
+        <div class="row align-items-start">
+            <div class="col bor">
+                Align Us At The Top
+            </div>
+            <div class="col bor">
+                Align Us At The Top
+            </div>
+            <div class="col bor">
+                Align Us At The Top
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col bor">
+                Align Us In The Middle
+            </div>
+            <div class="col bor">
+                Align Us In The Middle
+            </div>
+            <div class="col bor">
+                Align Us In The Middle
+            </div>
+        </div>
+
+        <h2>Horizontal</h2>
+        <div class="row align-items-end">
+            <div class="col-4 bor justify-item-start">
+                Align Us At The Bottom
+            </div>
+            <div class="col-4 bor justify-item-end">
+                Align Us At The Bottom
+            </div>
+
+        </div>
+        <div class="row align-items-start  justify-content-center">
+            <div class="col-4 bor">
+                Align Us At The Top
+            </div>
+            <div class="col-4 bor">
+                Align Us At The Top
+            </div>
+
+        </div>
+        <div class="row align-items-center  justify-content-end">
+            <div class="col-4 bor">
+                Align Us In The Middle
+            </div>
+            <div class="col-4 bor">
+                Align Us In The Middle
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
